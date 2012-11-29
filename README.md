@@ -1,6 +1,6 @@
 Freetronics ArduSat Multiple Processor Module
 =============================================
-Copyright 2010 Freetronics Pty Ltd  
+Copyright 2012 Freetronics Pty Ltd  
 Freetronics site:  www.freetronics.com  
 Freetronics email: info@freetronics.com  
 
