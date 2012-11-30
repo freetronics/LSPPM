@@ -1073,6 +1073,7 @@ design rules under a new name.</description>
 <element name="U3" library="SparkFun" package="SSOP24" value="MUX-74HC4067" x="1.27" y="-210.82"/>
 <element name="U4" library="SparkFun" package="SSOP24" value="MUX-74HC4067" x="1.27" y="-220.345"/>
 <element name="R33" library="freetronics-master-v1.1" package="0603" value="33K 0603" x="7.62" y="-216.535"/>
+<element name="JP3" library="freetronics-master-v1.1" package="1X02" value="" x="-1.27" y="-228.6"/>
 </elements>
 <signals>
 <signal name="N$7">
@@ -3437,6 +3438,8 @@ design rules under a new name.</description>
 <signal name="TX">
 <contactref element="U1" pad="1"/>
 <contactref element="U3" pad="1"/>
+<contactref element="JP3" pad="1"/>
+<wire x1="-2.305" y1="-214.476" x2="-1.27" y2="-228.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.305" y1="-86.841" x2="-2.305" y2="-214.476" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N4_D1_TX">
@@ -3502,6 +3505,8 @@ design rules under a new name.</description>
 <signal name="RX">
 <contactref element="U2" pad="1"/>
 <contactref element="U4" pad="1"/>
+<contactref element="JP3" pad="2"/>
+<wire x1="-2.305" y1="-224.001" x2="1.27" y2="-228.6" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.305" y1="-109.701" x2="-2.305" y2="-224.001" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N4_D0_RX">
