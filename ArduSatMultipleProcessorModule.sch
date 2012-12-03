@@ -3610,7 +3610,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="R16" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="22K 0603"/>
 <part name="U$35" library="SparkFun" deviceset="5V" device=""/>
-<part name="P4" library="freetronics-jon" deviceset="ICSP" device="SMT" value="N1_ICSP"/>
+<part name="P4" library="freetronics-jon" deviceset="ICSP" device="PTH" value="N1_ICSP"/>
 <part name="GND19" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$36" library="SparkFun" deviceset="5V" device=""/>
 <part name="R17" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1M 0603"/>
@@ -3992,12 +3992,12 @@ the node selected first</text>
 </instance>
 <instance part="U$37" gate="G$1" x="147.32" y="238.76" rot="R270"/>
 <instance part="U$38" gate="G$1" x="86.36" y="266.7" rot="R180"/>
-<instance part="RN3" gate="A" x="99.06" y="251.46" rot="R180"/>
-<instance part="RN3" gate="B" x="99.06" y="259.08" rot="R180"/>
-<instance part="RN3" gate="C" x="99.06" y="266.7" rot="R180"/>
-<instance part="RN3" gate="D" x="99.06" y="274.32" rot="R180"/>
+<instance part="RN3" gate="A" x="99.06" y="259.08" rot="R180"/>
+<instance part="RN3" gate="B" x="99.06" y="266.7" rot="R180"/>
+<instance part="RN3" gate="C" x="99.06" y="274.32" rot="R180"/>
+<instance part="RN3" gate="D" x="99.06" y="279.4" rot="R180"/>
 <instance part="U$39" gate="G$1" x="58.42" y="266.7"/>
-<instance part="GND20" gate="1" x="106.68" y="256.54"/>
+<instance part="GND20" gate="1" x="109.22" y="256.54"/>
 <instance part="U$40" gate="G$1" x="154.94" y="251.46"/>
 <instance part="GND21" gate="1" x="170.18" y="215.9"/>
 <instance part="Q7" gate="G$1" x="91.44" y="226.06" smashed="yes" rot="R270">
@@ -4827,6 +4827,28 @@ the node selected first</text>
 <wire x1="165.1" y1="170.18" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <label x="165.1" y="157.48" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="Q11" gate="G$1" pin="G"/>
+<pinref part="U$45" gate="G$1" pin="5V"/>
+<wire x1="302.26" y1="50.8" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="53.34" x2="284.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
+<junction x="302.26" y="55.88"/>
+<label x="287.02" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="Q12" gate="G$1" pin="G"/>
+<pinref part="U$46" gate="G$1" pin="5V"/>
+<wire x1="302.26" y1="25.4" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="30.48" x2="304.8" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="27.94" x2="284.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="30.48" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
+<junction x="302.26" y="30.48"/>
+<label x="287.02" y="30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC_SYS" class="0">
 <segment>
@@ -5116,11 +5138,6 @@ the node selected first</text>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="RN3" gate="B" pin="1"/>
-<wire x1="104.14" y1="259.08" x2="106.68" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="271.78" y1="139.7" x2="266.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="139.7" x2="266.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="134.62" x2="266.7" y2="129.54" width="0.1524" layer="91"/>
@@ -5191,6 +5208,11 @@ the node selected first</text>
 <junction x="429.26" y="12.7"/>
 <junction x="429.26" y="17.78"/>
 <junction x="429.26" y="20.32"/>
+</segment>
+<segment>
+<pinref part="RN3" gate="A" pin="1"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="109.22" y1="259.08" x2="104.14" y2="259.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -5637,28 +5659,6 @@ the node selected first</text>
 <junction x="30.48" y="261.62"/>
 <wire x1="30.48" y1="261.62" x2="43.18" y2="261.62" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="Q12" gate="G$1" pin="G"/>
-<pinref part="U$46" gate="G$1" pin="5V"/>
-<wire x1="302.26" y1="25.4" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="30.48" x2="304.8" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="27.94" x2="284.48" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="30.48" x2="302.26" y2="30.48" width="0.1524" layer="91"/>
-<junction x="302.26" y="30.48"/>
-<label x="287.02" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q11" gate="G$1" pin="G"/>
-<pinref part="U$45" gate="G$1" pin="5V"/>
-<wire x1="302.26" y1="50.8" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="55.88" x2="304.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="53.34" x2="284.48" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="55.88" x2="302.26" y2="55.88" width="0.1524" layer="91"/>
-<junction x="302.26" y="55.88"/>
-<label x="287.02" y="55.88" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N1_D13_SCK" class="0">
 <segment>
@@ -5746,9 +5746,9 @@ the node selected first</text>
 </net>
 <net name="N1_D0_RX" class="0">
 <segment>
-<pinref part="RN3" gate="D" pin="1"/>
 <label x="106.68" y="274.32" size="1.778" layer="95"/>
 <wire x1="104.14" y1="274.32" x2="119.38" y2="274.32" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="C" pin="1"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="236.22" x2="241.3" y2="236.22" width="0.1524" layer="91"/>
@@ -5763,9 +5763,9 @@ the node selected first</text>
 </net>
 <net name="N1_D1_TX" class="0">
 <segment>
-<pinref part="RN3" gate="C" pin="1"/>
 <label x="106.68" y="266.7" size="1.778" layer="95"/>
 <wire x1="104.14" y1="266.7" x2="119.38" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="RN3" gate="B" pin="1"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="233.68" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
@@ -5858,24 +5858,6 @@ the node selected first</text>
 <wire x1="154.94" y1="246.38" x2="154.94" y2="243.84" width="0.1524" layer="91"/>
 <junction x="154.94" y="243.84"/>
 <junction x="147.32" y="246.38"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$38" gate="G$1" pin="C-R"/>
-<pinref part="RN3" gate="C" pin="2"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U$38" gate="G$1" pin="C-G"/>
-<pinref part="RN3" gate="D" pin="2"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$38" gate="G$1" pin="C-B"/>
-<pinref part="RN3" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="N2_5V" class="0">
@@ -6902,6 +6884,24 @@ the node selected first</text>
 <pinref part="Q12" gate="G$1" pin="D"/>
 <wire x1="307.34" y1="17.78" x2="325.12" y2="17.78" width="0.1524" layer="91"/>
 <label x="309.88" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U$38" gate="G$1" pin="C-B"/>
+<pinref part="RN3" gate="A" pin="2"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="U$38" gate="G$1" pin="C-G"/>
+<pinref part="RN3" gate="C" pin="2"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="U$38" gate="G$1" pin="C-R"/>
+<pinref part="RN3" gate="B" pin="2"/>
 </segment>
 </net>
 </nets>
