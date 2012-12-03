@@ -3587,7 +3587,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND13" library="SparkFun" deviceset="GND" device=""/>
 <part name="R12" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="22K 0603"/>
 <part name="U$26" library="SparkFun" deviceset="5V" device=""/>
-<part name="P3" library="freetronics-jon" deviceset="ICSP" device="SMT" value="N0_ICSP"/>
+<part name="P3" library="freetronics-jon" deviceset="ICSP" device="PTH" value="N0_ICSP"/>
 <part name="GND14" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$27" library="SparkFun" deviceset="5V" device=""/>
 <part name="R13" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1M 0603"/>
@@ -3734,7 +3734,7 @@ Source: RS Component / Phycomp</description>
 <text x="99.06" y="66.04" size="1.778" layer="94">What bus pins to use for UART, I2C, and MGMNT_I2C?</text>
 <text x="99.06" y="63.5" size="1.778" layer="94">Add bias for MGMNT_I2C</text>
 <text x="99.06" y="60.96" size="1.778" layer="94">Bigger filter caps per node?</text>
-<text x="99.06" y="68.58" size="1.778" layer="94">Pull-down cap on each RESET?</text>
+<text x="99.06" y="68.58" size="1.778" layer="94">ATmega328P generates internal RESET pulse stretch</text>
 <text x="264.16" y="177.038" size="1.778" layer="94" distance="58">Supervisor</text>
 <frame x1="254" y1="0" x2="502.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <text x="99.06" y="83.82" size="1.778" layer="94">ATmega328P core consumes ~10mA at 5V / 16MHz</text>
