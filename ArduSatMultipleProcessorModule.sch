@@ -4402,7 +4402,7 @@ the node selected first</text>
 <instance part="RN2" gate="C" x="99.06" y="744.22" rot="R180"/>
 <instance part="RN2" gate="D" x="99.06" y="749.3" rot="R180"/>
 <instance part="U$30" gate="G$1" x="58.42" y="736.6"/>
-<instance part="GND15" gate="1" x="106.68" y="726.44"/>
+<instance part="GND15" gate="1" x="109.22" y="726.44"/>
 <instance part="U$31" gate="G$1" x="154.94" y="721.36"/>
 <instance part="GND16" gate="1" x="170.18" y="685.8"/>
 <instance part="Q5" gate="G$1" x="91.44" y="695.96" smashed="yes" rot="R270">
@@ -6457,7 +6457,7 @@ the node selected first</text>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="RN2" gate="A" pin="1"/>
-<wire x1="104.14" y1="728.98" x2="106.68" y2="728.98" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="728.98" x2="109.22" y2="728.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="386.08" y1="525.78" x2="381" y2="525.78" width="0.1524" layer="91"/>
@@ -9711,11 +9711,6 @@ the node selected first</text>
 <pinref part="IC5" gate="G$1" pin="PB5(SCK)"/>
 <label x="477.52" y="480.06" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$125" gate="G$1" pin="A-B"/>
-<wire x1="327.66" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
-<label x="312.42" y="157.48" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N6_A4_SDA" class="0">
 <segment>
@@ -11500,6 +11495,11 @@ the node selected first</text>
 <wire x1="474.98" y1="99.06" x2="495.3" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC15" gate="G$1" pin="PB5(SCK)"/>
 <label x="477.52" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$125" gate="G$1" pin="A-B"/>
+<wire x1="327.66" y1="157.48" x2="312.42" y2="157.48" width="0.1524" layer="91"/>
+<label x="312.42" y="157.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N14_RESET" class="0">
