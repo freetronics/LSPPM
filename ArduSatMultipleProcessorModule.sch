@@ -4040,14 +4040,11 @@ Source: RS Component / Phycomp</description>
 <text x="53.34" y="749.3" size="1.778" layer="94">Status Display</text>
 <text x="53.34" y="622.3" size="1.778" layer="94">I2C Isolation</text>
 <text x="53.34" y="660.4" size="1.778" layer="94">Status Display</text>
-<text x="99.06" y="843.28" size="1.778" layer="94">MCP23017 can only supply 25mA per output.</text>
-<text x="99.06" y="840.74" size="1.778" layer="94">May not be suitable for direct control of node VCCs.</text>
-<text x="99.06" y="833.12" size="1.778" layer="94">Replace 2 x MCP23017 with 1 x ATmega328?</text>
+<text x="99.06" y="843.28" size="1.778" layer="94">MCP23017 can supply 25mA per output. Directly control node VCCs?</text>
 <wire x1="73.66" y1="942.34" x2="73.66" y2="894.08" width="0.1524" layer="97" style="longdash"/>
 <wire x1="73.66" y1="894.08" x2="73.66" y2="782.32" width="0.1524" layer="97" style="longdash"/>
 <wire x1="73.66" y1="782.32" x2="73.66" y2="767.08" width="0.1524" layer="97" style="longdash"/>
 <text x="83.82" y="939.038" size="1.778" layer="94">I2C Bias: Management Bus</text>
-<text x="99.06" y="838.2" size="1.778" layer="94">Add FETs or something to switch node VCCs?</text>
 <text x="99.06" y="828.04" size="1.778" layer="94">What bus pins to use for UART, I2C, and MGMNT_I2C?</text>
 <text x="99.06" y="825.5" size="1.778" layer="94">Add bias for MGMNT_I2C</text>
 <text x="99.06" y="822.96" size="1.778" layer="94">Bigger filter caps per node?</text>
@@ -4062,7 +4059,6 @@ Source: RS Component / Phycomp</description>
 <text x="7.62" y="670.56" size="3.81" layer="94">Node 0</text>
 <text x="7.62" y="581.66" size="3.81" layer="94">Node 1</text>
 <text x="7.62" y="586.74" size="3.81" layer="94">Processor</text>
-<text x="99.06" y="820.42" size="1.778" layer="94">Control UART switch EN from supervisor</text>
 <text x="99.06" y="800.1" size="1.778" layer="94">Pass through RESET for each node? Easy, but better perhaps
 to expose one of the Supervisor node I/O lines as a "virtual"
 reset line, which in turn toggles power to that node. That
