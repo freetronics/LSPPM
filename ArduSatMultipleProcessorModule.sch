@@ -3627,7 +3627,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
 <part name="R26" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="22K 0603"/>
 <part name="U$51" library="SparkFun" deviceset="5V" device=""/>
-<part name="P5" library="freetronics-jon" deviceset="ICSP" device="SMT" value="N1_ICSP"/>
+<part name="P5" library="freetronics-jon" deviceset="ICSP" device="PTH" value="N1_ICSP"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$52" library="SparkFun" deviceset="5V" device=""/>
 <part name="R32" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="1M 0603"/>
