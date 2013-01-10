@@ -1,6 +1,6 @@
 Freetronics ArduSat Multiple Processor Module
 =============================================
-Copyright 2012 Freetronics Pty Ltd  
+Copyright 2013 Freetronics Pty Ltd  
 Freetronics site:  www.freetronics.com  
 Freetronics email: info@freetronics.com  
 
@@ -12,7 +12,7 @@ Features:
 
 More information is available at:
 
-  http://www.freetronics.com/asmpm
+  http://www.freetronics.com/asppm
 
 The "docs" folder within this repository includes a handy copy of the
 schematic in PDF format and image(s) of the pcb.
@@ -24,7 +24,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> ArduSatMultipleProcessorModule.
+navigate to Projects -> eagle -> ArduSatPayloadProcessorModule.
 
 
 DISTRIBUTION
