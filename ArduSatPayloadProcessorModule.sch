@@ -511,22 +511,6 @@
 <wire x1="-3" y1="2" x2="-3" y2="-2" width="0.2032" layer="21"/>
 <wire x1="1" y1="0" x2="3" y2="0" width="0.2032" layer="21"/>
 </package>
-<package name="19-337">
-<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="0.8" x2="0.6" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-0.8" x2="0.6" y2="-0.8" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="1.1" x2="-0.4" y2="1.1" width="0.127" layer="21"/>
-<circle x="-0.5" y="1.1" radius="0.1" width="0.127" layer="21"/>
-<smd name="1" x="-1.1" y="0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="2" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="3" x="-1.1" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="4" x="1.1" y="0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="5" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="6" x="1.1" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
-</package>
 <package name="TO92">
 <description>TO92 package with offset center pin</description>
 <wire x1="-2.0946" y1="-1.651" x2="-0.7863" y2="2.5485" width="0.2032" layer="21" curve="-111.098957" cap="flat"/>
@@ -2780,92 +2764,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="3.81" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="3.81" y="0" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="LED-RGB">
-<wire x1="2.54" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-5.588" x2="0.381" y2="-4.191" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-5.715" x2="-0.762" y2="-4.318" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="9.652" x2="0.381" y2="11.049" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="9.525" x2="-0.762" y2="10.922" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-4.572" y="14.224" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.572" y="17.145" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="10.16" size="1.27" layer="94">BLUE</text>
-<text x="2.54" y="2.54" size="1.27" layer="94">RED</text>
-<text x="2.54" y="-5.08" size="1.27" layer="94">GREEN</text>
-<pin name="C-G" x="-7.62" y="-7.62" visible="off" length="short" direction="pas"/>
-<pin name="A-G" x="12.7" y="-7.62" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C-R" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<pin name="A-R" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C-B" x="-7.62" y="7.62" visible="off" length="short" direction="pas"/>
-<pin name="A-B" x="12.7" y="7.62" visible="off" length="short" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="-4.191"/>
-<vertex x="1.27" y="-4.572"/>
-<vertex x="0.762" y="-5.08"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="-4.318"/>
-<vertex x="0.127" y="-4.699"/>
-<vertex x="-0.381" y="-5.207"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="3.429"/>
-<vertex x="1.27" y="3.048"/>
-<vertex x="0.762" y="2.54"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="3.302"/>
-<vertex x="0.127" y="2.921"/>
-<vertex x="-0.381" y="2.413"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="11.049"/>
-<vertex x="1.27" y="10.668"/>
-<vertex x="0.762" y="10.16"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="10.922"/>
-<vertex x="0.127" y="10.541"/>
-<vertex x="-0.381" y="10.033"/>
-</polygon>
-</symbol>
 <symbol name="MOSFET-NCHANNEL">
 <wire x1="-3.6576" y1="2.413" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="1.905" x2="-2.0066" y2="1.905" width="0.1524" layer="94"/>
@@ -3270,26 +3168,6 @@ Low power digital temperature sensor with I2C interface</description>
 <device name="3.2MM" package="HOLE32">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RGBLED">
-<gates>
-<gate name="G$1" symbol="LED-RGB" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="SMT" package="19-337">
-<connects>
-<connect gate="G$1" pin="A-B" pad="4"/>
-<connect gate="G$1" pin="A-G" pad="6"/>
-<connect gate="G$1" pin="A-R" pad="5"/>
-<connect gate="G$1" pin="C-B" pad="1"/>
-<connect gate="G$1" pin="C-G" pad="3"/>
-<connect gate="G$1" pin="C-R" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6125,6 +6003,21 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <hole x="0" y="0.9" drill="0.65"/>
 <hole x="0" y="-0.9" drill="0.65"/>
 </package>
+<package name="FREETRONICS-MASTER-V1_19-337">
+<circle x="-0.7" y="1.28" radius="0.08" width="0.17" layer="21"/>
+<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-0.8" x2="0.2" y2="-0.8" width="0.127" layer="21"/>
+<smd name="1" x="-0.7" y="0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="2" x="-0.7" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="3" x="-0.7" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="4" x="0.7" y="0.75" dx="0.6" dy="0.5" layer="1"/>
+<smd name="5" x="0.7" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="6" x="0.7" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R1NV">
@@ -6174,6 +6067,92 @@ Source: PANASONIC .. aoc0000ce1.pdf</description>
 <text x="-4.318" y="7.239" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="P" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="2"/>
+</symbol>
+<symbol name="FREETRONICS-MASTER-V1_LED-RGB">
+<wire x1="2.54" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-5.588" x2="0.381" y2="-4.191" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="-5.715" x2="-0.762" y2="-4.318" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="9.652" x2="0.381" y2="11.049" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="9.525" x2="-0.762" y2="10.922" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<pin name="A-B" x="12.7" y="7.62" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A-G" x="12.7" y="-7.62" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A-R" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="C-B" x="-7.62" y="7.62" visible="off" length="short" direction="pas"/>
+<pin name="C-G" x="-7.62" y="-7.62" visible="off" length="short" direction="pas"/>
+<pin name="C-R" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<text x="-4.572" y="14.224" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.572" y="17.145" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="10.16" size="1.27" layer="94">BLUE</text>
+<text x="2.54" y="2.54" size="1.27" layer="94">RED</text>
+<text x="2.54" y="-5.08" size="1.27" layer="94">GREEN</text>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="-4.191"/>
+<vertex x="1.27" y="-4.572"/>
+<vertex x="0.762" y="-5.08"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="-4.318"/>
+<vertex x="0.127" y="-4.699"/>
+<vertex x="-0.381" y="-5.207"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="3.429"/>
+<vertex x="1.27" y="3.048"/>
+<vertex x="0.762" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="3.302"/>
+<vertex x="0.127" y="2.921"/>
+<vertex x="-0.381" y="2.413"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="11.049"/>
+<vertex x="1.27" y="10.668"/>
+<vertex x="0.762" y="10.16"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.762" y="10.922"/>
+<vertex x="0.127" y="10.541"/>
+<vertex x="-0.381" y="10.033"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -6426,6 +6405,26 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connects>
 <connect gate="1" pin="P" pad="1"/>
 <connect gate="1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FREETRONICS-MASTER-V1_RGBLED">
+<gates>
+<gate name="G$1" symbol="FREETRONICS-MASTER-V1_LED-RGB" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="SMT" package="FREETRONICS-MASTER-V1_19-337">
+<connects>
+<connect gate="G$1" pin="A-B" pad="4"/>
+<connect gate="G$1" pin="A-G" pad="6"/>
+<connect gate="G$1" pin="A-R" pad="5"/>
+<connect gate="G$1" pin="C-B" pad="1"/>
+<connect gate="G$1" pin="C-G" pad="3"/>
+<connect gate="G$1" pin="C-R" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8713,7 +8712,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND86" library="SparkFun" deviceset="GND" device=""/>
 <part name="R2" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL1" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED1" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED1" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN1" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND87" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND88" library="SparkFun" deviceset="GND" device=""/>
@@ -8734,7 +8733,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="R8" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL2" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED2" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED2" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN2" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
@@ -8755,7 +8754,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="R13" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL3" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED3" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED3" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN3" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun" deviceset="GND" device=""/>
@@ -8776,7 +8775,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="R17" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL4" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED4" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED4" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN4" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
@@ -8797,7 +8796,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="R25" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL5" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED5" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED5" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN5" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun" deviceset="GND" device=""/>
@@ -8818,7 +8817,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND27" library="SparkFun" deviceset="GND" device=""/>
 <part name="R30" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL6" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED6" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED6" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN6" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND34" library="SparkFun" deviceset="GND" device=""/>
@@ -8839,7 +8838,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND37" library="SparkFun" deviceset="GND" device=""/>
 <part name="R36" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL7" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED7" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED7" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN7" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND38" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
@@ -8860,7 +8859,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND42" library="SparkFun" deviceset="GND" device=""/>
 <part name="R40" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL8" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED8" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED8" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN8" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND43" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun" deviceset="GND" device=""/>
@@ -8881,7 +8880,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND47" library="SparkFun" deviceset="GND" device=""/>
 <part name="R44" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL9" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED9" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED9" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN9" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND48" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun" deviceset="GND" device=""/>
@@ -8902,7 +8901,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND52" library="SparkFun" deviceset="GND" device=""/>
 <part name="R48" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL10" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED10" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED10" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN10" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND53" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND54" library="SparkFun" deviceset="GND" device=""/>
@@ -8923,7 +8922,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND57" library="SparkFun" deviceset="GND" device=""/>
 <part name="R52" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL11" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED11" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED11" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN11" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND58" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND59" library="SparkFun" deviceset="GND" device=""/>
@@ -8944,7 +8943,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND62" library="SparkFun" deviceset="GND" device=""/>
 <part name="R56" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL12" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED12" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED12" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN12" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND63" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND64" library="SparkFun" deviceset="GND" device=""/>
@@ -8965,7 +8964,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND67" library="SparkFun" deviceset="GND" device=""/>
 <part name="R61" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL13" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED13" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED13" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN13" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND68" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND69" library="SparkFun" deviceset="GND" device=""/>
@@ -8986,7 +8985,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND78" library="SparkFun" deviceset="GND" device=""/>
 <part name="R65" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL14" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED14" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED14" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN14" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND79" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND80" library="SparkFun" deviceset="GND" device=""/>
@@ -9007,7 +9006,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND83" library="SparkFun" deviceset="GND" device=""/>
 <part name="R69" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL15" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED15" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED15" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN15" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND89" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND92" library="SparkFun" deviceset="GND" device=""/>
@@ -9028,7 +9027,7 @@ Source: RS Component / Phycomp</description>
 <part name="GND95" library="SparkFun" deviceset="GND" device=""/>
 <part name="R73" library="freetronics-jon" deviceset="RESISTOR" device="0402" value="1M 0402"/>
 <part name="XTL16" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="SMD3225-16MHZ 3.2 x 2.5mm crystal"/>
-<part name="LED16" library="freetronics-jon" deviceset="RGBLED" device="SMT"/>
+<part name="LED16" library="freetronics-master-v1" deviceset="FREETRONICS-MASTER-V1_RGBLED" device="SMT"/>
 <part name="RN16" library="resistor-dil" deviceset="4R-N" device="CAY16" value="2K2"/>
 <part name="GND96" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND97" library="SparkFun" deviceset="GND" device=""/>
