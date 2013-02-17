@@ -3273,6 +3273,17 @@ Low power digital temperature sensor with I2C interface</description>
 <pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
 <pin name="TGND" x="-12.7" y="-20.32" length="short" direction="pwr"/>
 </symbol>
+<symbol name="SJC">
+<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.4064" layer="94"/>
+</symbol>
 <symbol name="SJ">
 <wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
@@ -4810,6 +4821,22 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <connect gate="G$1" pin="SDA" pad="20"/>
 <connect gate="G$1" pin="TGND" pad="TGND"/>
 <connect gate="G$1" pin="VCC" pad="21"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SJC">
+<gates>
+<gate name="G$1" symbol="SJC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0402" package="0402SJC">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10088,9 +10115,13 @@ Source: RS Component / Phycomp</description>
 <part name="GND111" library="freetronics" deviceset="GND" device=""/>
 <part name="SJ5" library="freetronics-jon" deviceset="SJ" device="0402O"/>
 <part name="SJ6" library="freetronics-jon" deviceset="SJ" device="0402O"/>
-<part name="SJ7" library="freetronics-jon" deviceset="SJ" device="0402O"/>
+<part name="SJ7" library="freetronics-jon" deviceset="SJC" device="0402"/>
 <part name="U$24" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$26" library="freetronics-jon" deviceset="TCA9555" device="QFN"/>
+<part name="FID5" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID6" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID7" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
+<part name="FID8" library="freetronics" deviceset="FIDUCIAL" device="1X2.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -10257,6 +10288,14 @@ Source: RS Component / Phycomp</description>
 <instance part="C39" gate="G$1" x="121.92" y="86.36"/>
 <instance part="GND70" gate="1" x="121.92" y="76.2"/>
 <instance part="P+6" gate="G$1" x="121.92" y="116.84"/>
+<instance part="FID1" gate="G$1" x="20.32" y="7.62" rot="R90"/>
+<instance part="FID2" gate="G$1" x="25.4" y="7.62" rot="R90"/>
+<instance part="FID3" gate="G$1" x="15.24" y="7.62" rot="R90"/>
+<instance part="FID4" gate="G$1" x="10.16" y="7.62" rot="R90"/>
+<instance part="FID5" gate="G$1" x="60.96" y="7.62" rot="R90"/>
+<instance part="FID6" gate="G$1" x="66.04" y="7.62" rot="R90"/>
+<instance part="FID7" gate="G$1" x="55.88" y="7.62" rot="R90"/>
+<instance part="FID8" gate="G$1" x="50.8" y="7.62" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12649,7 +12688,7 @@ Source: RS Component / Phycomp</description>
 <sheet>
 <plain>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
-<text x="7.62" y="175.26" size="2.54" layer="94" ratio="12">Real-Time Clock</text>
+<text x="7.62" y="175.26" size="2.54" layer="94" ratio="12">Node Reset Control</text>
 <text x="144.78" y="70.612" size="1.778" layer="103">Spectruino conn</text>
 <text x="12.954" y="19.812" size="1.778" layer="103">GPS conn</text>
 <text x="144.78" y="126.238" size="1.778" layer="103">Geiger conn</text>
@@ -12787,10 +12826,6 @@ Move debug connector a little bit inwards</text>
 <attribute name="VALUE" x="66.548" y="17.653" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="G$1" x="81.28" y="45.72"/>
-<instance part="FID1" gate="G$1" x="132.08" y="121.92"/>
-<instance part="FID2" gate="G$1" x="132.08" y="116.84"/>
-<instance part="FID3" gate="G$1" x="132.08" y="127"/>
-<instance part="FID4" gate="G$1" x="132.08" y="132.08"/>
 <instance part="GND107" gate="1" x="60.96" y="55.88"/>
 <instance part="SW18" gate="G$1" x="45.72" y="66.04" smashed="yes">
 <attribute name="NAME" x="43.18" y="74.168" size="1.778" layer="95"/>
@@ -12832,7 +12867,7 @@ Move debug connector a little bit inwards</text>
 <instance part="GND111" gate="1" x="53.34" y="109.22"/>
 <instance part="SJ5" gate="1" x="20.32" y="129.54" rot="MR0"/>
 <instance part="SJ6" gate="1" x="25.4" y="127" rot="MR0"/>
-<instance part="SJ7" gate="1" x="30.48" y="124.46" rot="MR0"/>
+<instance part="SJ7" gate="G$1" x="30.48" y="124.46" rot="MR0"/>
 <instance part="U$24" gate="G$1" x="10.16" y="129.54"/>
 <instance part="U$26" gate="G$1" x="93.98" y="134.62"/>
 </instances>
@@ -13012,7 +13047,7 @@ Move debug connector a little bit inwards</text>
 <pinref part="SJ6" gate="1" pin="2"/>
 <wire x1="20.32" y1="127" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="127" x2="10.16" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="SJ7" gate="1" pin="2"/>
+<pinref part="SJ7" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="124.46" x2="10.16" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="124.46" x2="10.16" y2="127" width="0.1524" layer="91"/>
 <junction x="10.16" y="129.54"/>
@@ -13411,7 +13446,7 @@ Move debug connector a little bit inwards</text>
 <wire x1="68.58" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="121.92" x2="68.58" y2="124.46" width="0.1524" layer="91"/>
 <junction x="68.58" y="124.46"/>
-<pinref part="SJ7" gate="1" pin="1"/>
+<pinref part="SJ7" gate="G$1" pin="1"/>
 <pinref part="U$26" gate="G$1" pin="A2"/>
 </segment>
 </net>
