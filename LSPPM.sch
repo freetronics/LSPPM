@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -10034,10 +10034,10 @@ Source: RS Component / Phycomp</description>
 <sheets>
 <sheet>
 <plain>
-<text x="149.86" y="12.7" size="3.048" layer="94">ArduSat Payload Processor Module</text>
-<text x="215.9" y="6.858" size="1.778" layer="94">V1.2 (2013-02-21)</text>
-<text x="149.606" y="6.858" size="1.778" layer="94">www.freetronics.com/asppm</text>
-<text x="190.5" y="6.858" size="1.778" layer="94">SKU: ASPPM</text>
+<text x="149.86" y="12.7" size="3.048" layer="94">LibreSat Payload Processor Module</text>
+<text x="215.9" y="6.858" size="1.778" layer="94">V1.5 (2015-09-21)</text>
+<text x="149.606" y="6.858" size="1.778" layer="94">www.libresat.org/lsppm</text>
+<text x="190.5" y="6.858" size="1.778" layer="94">SKU: LSPPM</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="147.32" y1="5.08" x2="243.84" y2="17.78" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
 <frame x1="187.96" y1="5.08" x2="213.36" y2="10.16" columns="8" rows="5" layer="94"/>
@@ -10047,7 +10047,7 @@ Source: RS Component / Phycomp</description>
 <text x="86.36" y="10.16" size="1.778" layer="94">Released under the TAPR</text>
 <text x="86.36" y="7.62" size="1.778" layer="94">Open Hardware License</text>
 <text x="86.36" y="5.08" size="1.778" layer="94">www.tapr.org/OHL</text>
-<text x="86.36" y="15.24" size="1.778" layer="94">(c) Copyright 2013 Freetronics Pty Ltd</text>
+<text x="86.36" y="15.24" size="1.778" layer="94">(c) Copyright 2015 Freetronics Pty Ltd</text>
 <wire x1="213.36" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="97" style="longdash"/>
 <wire x1="157.48" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="97" style="longdash"/>
 <wire x1="73.66" y1="180.34" x2="73.66" y2="129.54" width="0.1524" layer="97" style="longdash"/>
@@ -11253,6 +11253,9 @@ Source: RS Component / Phycomp</description>
 <wire x1="104.14" y1="167.64" x2="101.6" y2="167.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="167.64"/>
 <junction x="104.14" y="167.64"/>
+<wire x1="104.14" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
+<junction x="104.14" y="154.94"/>
+<label x="76.2" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+3V3_SRC" class="0">
